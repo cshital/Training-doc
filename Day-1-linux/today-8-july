@@ -1,0 +1,161 @@
+
+Pre Assessment Test -DevOps
+By: TechnoEdge Learning Services India Pvt. Ltd.
+
+Answers: SCALES ARE LIKE
+
+1 Poor          2 Fair          3 Good          4 Very Good          5 Excellent
+Points:
+13/20
+1.Name
+2.Email ID
+Correct
+1/1 Points
+3.Intro to DevOps: You are working in a company that has traditionally used a waterfall model for software development. They are considering transitioning to a DevOps approach. What is one of the primary benefits of adopting DevOps?
+Slower release cycles
+Improved collaboration between development and operations teams
+Increased manual intervention in deployment processes
+Decreased automation
+Correct
+1/1 Points
+4.Version Control using GIT: You have made changes to a file in your local Git repository      and want to add these changes to the staging area. Which command should you use?
+git commit -m "message"
+git push origin master
+git add <filename>
+git merge <branch>
+Correct
+1/1 Points
+5.GitHub: You are working on a project with a team and want to ensure that changes are reviewed before they are merged into the main branch. Which GitHub feature can you use to facilitate this?
+
+Issues
+Pull requests
+Wikis
+GitHub Actions
+Correct
+1/1 Points
+6.Selenium: You need to automate the testing of a web application. Which component of Selenium allows you to write test scripts in multiple programming languages?
+
+Selenium IDE
+Selenium WebDriver
+Selenium Grid
+Selenium RC
+Incorrect
+0/1 Points
+7.Jenkins: You have set up a Jenkins job to build your application. How can you ensure that the build is automatically triggered whenever changes are pushed to the repository?
+By scheduling the build to run at regular intervals
+By manually triggering the build after every commit
+By using Jenkins pipeline
+By configuring a webhook in the repository
+Incorrect
+0/1 Points
+8.Docker: You want to create a Docker image from a Dockerfile. Which command should you use?
+docker run <image>
+docker build -t <image> 
+docker pull <image>
+docker commit <container_id>
+Correct
+1/1 Points
+9.Kubernetes: Your application is running in a Kubernetes cluster, and you need to update the image version of a deployment. Which command would you use?
+kubectl apply -f <deployment.yaml>
+kubectl set image deployment/<deployment_name> <container_name>=<new_image>
+kubectl edit deployment <deployment_name>
+kubectl replace -f <deployment.yaml>
+Incorrect
+0/1 Points
+10.Ansible: You need to run a specific playbook on a group of servers. Which command would you use?
+ansible <group> -m ping
+ansible-playbook <playbook.yml>
+ansible-galaxy install <role>
+ansible-vault encrypt <file>
+Correct
+1/1 Points
+11.Terraform: You have written a Terraform configuration and want to see what changes it will make without actually applying them. Which command should you use?
+terraform apply
+terraform init
+terraform plan
+terraform destroy
+Correct
+1/1 Points
+12.Nagios: You are monitoring several servers using Nagios and need to check the status of a specific service. Which file would you typically configure to define this service check?
+nagios.cfg
+services.cfg
+commands.cfg
+hosts.cfg
+Correct
+1/1 Points
+13.You need to create a highly available and scalable web application on AWS. Which      combination of services would best achieve this?
+EC2, RDS, CloudFront
+S3, Lambda, CloudWatch
+EC2, Auto Scaling, ELB
+RDS, S3, IAM
+Correct
+1/1 Points
+14.Intro to DevOps: Your team has adopted DevOps practices and you want to measure the effectiveness of these practices. Which metric would be most relevant?
+Number of lines of code written
+Deployment frequency
+Number of meetings held
+Size of the development team
+Incorrect
+0/1 Points
+15.Version Control using GIT: You have a feature branch that you want to merge into the      master branch, but there are merge conflicts. What is the best course of action?
+Force merge the branches
+Delete the feature branch and start over
+Resolve the conflicts manually and then commit
+Abandon the feature
+Correct
+1/1 Points
+16.GitHub: You need to clone a repository from GitHub to your local machine. Which command would you use?
+git init
+git clone <repository_url>
+git fetch
+git pull
+Incorrect
+0/1 Points
+17.Selenium: You are using Selenium WebDriver for browser automation. How can you specify which browser to use in your test script?
+By setting an environment variable
+By passing a parameter to the WebDriver constructor
+By modifying the Selenium configuration file
+By installing the browser driver
+Correct
+1/1 Points
+18.Jenkins: You want to use Jenkins for continuous integration and deployment. Which plugin would you install to integrate Jenkins with GitHub?
+GitHub Plugin
+Maven Plugin
+Docker Plugin
+Pipeline Plugin
+Correct
+1/1 Points
+19.Docker: You need to share a Docker image with your team. Which command would you use to push the image to Docker Hub?
+docker save <image>
+docker push <image>
+docker load <image>
+docker export <container_id>
+Incorrect
+0/1 Points
+20.Kubernetes: You need to expose your Kubernetes application to external traffic. Which resource would you use?
+ConfigMap
+Secret
+Ingress
+PersistentVolume
+Incorrect
+0/1 Points
+21.Ansible: You need to encrypt sensitive data within your Ansible playbooks. Which Ansible feature would you use?
+Ansible Tower
+Ansible Vault
+Ansible Galaxy
+Ansible Inventory
+Correct
+1/1 Points
+22.Terraform: You want to destroy all the resources managed by your Terraform configuration. Which command should you use?
+terraform apply
+terraform destroy
+terraform plan
+○ terraform init
+Keep the information with you by saving your response.
+Go back to thank you page
+Microsoft 365
+This content is created by the owner of the form. The data you submit will be sent to the form owner. Microsoft is not responsible for the privacy or security practices of its customers, including those of this form owner. Never give out your password.
+| AI-Powered surveys, quizzes and pollsCreate my own form
+The owner of this form has not provided a privacy statement as to how they will use your response data. Do not provide personal or sensitive information. | Terms of use
+Enable Immersive Reader
+Clear Form

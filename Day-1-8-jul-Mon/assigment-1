@@ -1,0 +1,50 @@
+# 1. Identify the Process Using Port 80
+sudo lsof -i :80
+
+# 2. Stop the Conflicting Process:
+sudo kill -9 1234
+
+# 3. Restart Apache:
+sudo systemctl start apache2
+
+# 4. Change Apache’s Listening Port (Optional):
+
+sudo nano /etc/apache2/ports.conf
+
+- Change the line:
+Listen 80
+
+- to another port, such as:
+
+Listen 8080
+
+
+
+# If you just change the port or add more ports here, you will likely also
+# have to change the VirtualHost statement in
+# /etc/apache2/sites-enabled/000-default.conf
+
+Listen 80
+
+<IfModule ssl_module>
+        Listen 443
+</IfModule>
+
+<IfModule mod_gnutls.c>
+        Listen 443
+</IfModule>
+
+# vim: syntax=apache ts=4 sw=4 sts=4 sr noet
+
+#4. Restart Apache:
+
+sudo systemctl restart apache2
+
+# 5.Check Apache Configuration for Errors:
+
+sudo apachectl configtest
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Syntax OK
+
+
+cp /home/einfochips/Downloads/logo.png /var/www/html/mystaticwebsite/logo.png
